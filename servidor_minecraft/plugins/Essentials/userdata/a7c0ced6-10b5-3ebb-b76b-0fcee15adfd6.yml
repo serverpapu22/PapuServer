@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733877283944
+  logout: 1733884153762
   login: 1733883848904
 money: '0'
 last-account-name: BladePatterson_
 logoutlocation:
   world: ce5f5885-f928-446d-9758-9a0c741ed388
   world-name: world
-  x: 9.675065364120472
-  y: 64.0
-  z: -14.301999646478727
-  yaw: 10.050020217895508
-  pitch: -7.800075531005859
+  x: 19.5
+  y: 69.0
+  z: -18.5
+  yaw: 0.0
+  pitch: 0.0

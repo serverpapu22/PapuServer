@@ -126,3 +126,16 @@
 [02:24:06] [User Authenticator #0/INFO]: UUID of player BladePatterson_ is a7c0ced6-10b5-3ebb-b76b-0fcee15adfd6
 [02:24:08] [Server thread/INFO]: BladePatterson_ joined the game
 [02:24:08] [Server thread/INFO]: BladePatterson_[/127.104.23.9:33133] logged in with entity id 79 at ([world]9.675065364120472, 64.0, -14.301999646478727)
+[02:28:09] [User Authenticator #1/INFO]: UUID of player Jotahl is a2d45234-5227-35af-9592-c0a8a176f06f
+[02:28:11] [Server thread/INFO]: Jotahl joined the game
+[02:28:11] [Server thread/INFO]: Jotahl[/127.81.30.252:53489] logged in with entity id 591 at ([world]17.5, 67.0, -12.5)
+[02:28:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Jotahl> oal
+[02:28:57] [Server thread/INFO]: BladePatterson_ was slain by Jotahl
+[02:29:04] [Async Chat Thread - #0/INFO]: [Not Secure] <BladePatterson_> oal
+[02:29:09] [Async Chat Thread - #0/INFO]: [Not Secure] <BladePatterson_> bueno ahora si me voy
+[02:29:12] [Async Chat Thread - #0/INFO]: [Not Secure] <BladePatterson_> un guto
+[02:29:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Jotahl> gracias
+[02:29:13] [Server thread/INFO]: BladePatterson_ lost connection: Disconnected
+[02:29:13] [Server thread/INFO]: BladePatterson_ left the game
+[02:31:27] [Server thread/INFO]: Jotahl has made the advancement [Stone Age]
+[02:32:11] [Server thread/INFO]: Jotahl has made the advancement [Getting an Upgrade]

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.104.23.9
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733877283944
+  login: 1733877191936
+money: '0'
+last-account-name: BladePatterson_
+logoutlocation:
+  world: ce5f5885-f928-446d-9758-9a0c741ed388
+  world-name: world
+  x: 9.675065364120472
+  y: 64.0
+  z: -14.301999646478727
+  yaw: 10.050020217895508
+  pitch: -7.800075531005859

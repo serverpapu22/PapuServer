@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 127.104.23.9
@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733931855243
-  login: 1733931940589
+  logout: 1733932437243
+  login: 1733932423039
 money: '0'
-last-account-name: BladePatterson_
 logoutlocation:
   world: ce5f5885-f928-446d-9758-9a0c741ed388
   world-name: world
-  x: -73.32234426585623
-  y: 63.0
-  z: 83.75175327138183
-  yaw: -27.306339263916016
-  pitch: 9.150097846984863
+  x: -24.643963733661725
+  y: 71.0
+  z: 73.40588589112862
+  yaw: -20.400392532348633
+  pitch: 41.99953842163086
+last-account-name: BladePatterson_

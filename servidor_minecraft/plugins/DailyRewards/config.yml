@@ -185,10 +185,10 @@ config:
   monthly-available-item: CHEST_MINECART
   monthly-unavailable-item: MINECART
   monthly-rewards:
-  - '[console] give %player% diamond 8'
+  - '[console] give %player% diamond 24'
   - '[console] give %player% iron_ingot 32'
   - '[console] give %player% gold_ingot 16'
   monthly-premium-rewards:
-  - '[console] give %player% diamond 16'
+  - '[console] give %player% diamond 48'
   - '[console] give %player% iron_ingot 64'
   - '[console] give %player% gold_ingot 32'

@@ -1,0 +1,45 @@
+###                  𝕊𝕡𝕖𝕔𝕚𝕒𝕝 ℙ𝕣𝕖𝕗𝕚𝕩                    ###
+###   Ｃｒｅａｔｅｄ ｂｙ Ｗｉｚｉｒｄｉ （Ｖｅｔｈｙｘ）    ###
+
+# REQUIRED: LuckPerms
+# OPTIONAL: Chat Plugin & Tab Plugin for Hex Codes
+# Command /setplayerprefix: specialprefix.admin
+# Command /specialprefix reload: specialprefix.admin
+
+# TUTORIAL:
+# Use the command: /setplayerprefix <playername> [prefix]
+# EXAMPLE: If player Vethyx has the following permissions:
+# - specialprefix.prefix.vip
+# - specialprefix.badge.smile
+# And you run the command: /setplayerprefix Vethyx &3[Novice]
+# Their new prefix would be: &f🙂 &bᴠɪᴘ &3[Novice]
+
+# EXTRA TIPS:
+# Add as many prefixes and badges as you want
+# You don't HAVE to use brackets, [] in [Novice] for example
+# After changing config file, run the /setplayerprefix command again to update players prefix/badge
+
+# Prefixes configuration
+# Permission: specialprefix.prefix.<name> (replace <name> with the prefix key)
+prefix:
+  explorer: "&aᴇxᴘʟᴏʀᴇʀ "
+  miner: "&8miner "
+  mvp: "&5ᴍᴠᴘ "
+  vip: "&bᴠɪᴘ "
+  helper: "&aʜᴇʟᴘᴇʀ "
+  mod: "&cᴍᴏᴅ "
+  owner: "&6ᴏᴡɴᴇʀ "
+
+# Badges configuration
+# Permission: specialprefix.badge.<name> (replace <name> with the badge key)
+badge:
+  smile: "&f🙂 "
+  christmas: "&f❄ "
+  mvp: "&d⛏ "
+  helper: "&a⭐ "
+  mod: "&c⭐ "
+  owner: "&5⭐ "
+
+# Sets the default color for the player name with compatible chat plugins (e.g., TAB Menu)
+# Note: Using /nickname (EssentialsX) overrides this setting.
+endPrefix: " &7"

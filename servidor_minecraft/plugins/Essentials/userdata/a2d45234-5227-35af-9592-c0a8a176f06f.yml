@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1733886723609
   login: 1733884091575
 money: '0'
 last-account-name: Jotahl
+logoutlocation:
+  world: ce5f5885-f928-446d-9758-9a0c741ed388
+  world-name: world
+  x: -390.62916476547207
+  y: 67.0
+  z: -167.47024428089668
+  yaw: -0.017822265625
+  pitch: 36.57608413696289

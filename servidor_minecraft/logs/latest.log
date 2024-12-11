@@ -150,3 +150,40 @@
 [02:47:14] [Server thread/INFO]: Jotahl has made the advancement [Diamonds!]
 [03:03:17] [Server thread/INFO]: Jotahl has made the advancement [Sweet Dreams]
 [03:05:35] [Server thread/INFO]: Jotahl has made the advancement [Cover Me with Diamonds]
+[03:09:47] [User Authenticator #2/INFO]: UUID of player BladePatterson_ is a7c0ced6-10b5-3ebb-b76b-0fcee15adfd6
+[03:09:48] [Server thread/INFO]: BladePatterson_ joined the game
+[03:09:48] [Server thread/INFO]: BladePatterson_[/127.104.23.9:47309] logged in with entity id 7417 at ([world]19.5, 69.0, -18.5)
+[03:11:16] [Server thread/INFO]: BladePatterson_ has made the advancement [Stone Age]
+[03:11:56] [Server thread/INFO]: BladePatterson_ has made the advancement [Getting an Upgrade]
+[03:12:03] [Server thread/INFO]: Jotahl lost connection: Disconnected
+[03:12:03] [Server thread/INFO]: Jotahl left the game
+[03:13:39] [Server thread/INFO]: BladePatterson_ lost connection: Disconnected
+[03:13:39] [Server thread/INFO]: BladePatterson_ left the game
+[03:13:45] [Server thread/INFO]: Stopping the server
+[03:13:45] [Server thread/INFO]: Stopping server
+[03:13:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[03:13:45] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
+[03:13:45] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
+[03:13:45] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
+[03:13:45] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[03:13:45] [Server thread/INFO]: Saving players
+[03:13:45] [Server thread/INFO]: Saving worlds
+[03:13:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:13:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:13:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:13:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Saved 276 block chunks, 229 entity chunks, 0 poi chunks in world 'world' in 0.49s
+[03:13:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:13:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:13:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[03:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:13:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,359 +1,176 @@
-[15:38:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[15:38:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[15:38:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:38:16] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SpecialPrefix-1.1e.jar'...
-[15:38:16] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ChatManager-1.21-5.jar'...
-[15:38:17] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SpecialPrefix-1.1e.jar' in 563ms.
-[15:38:17] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ChatManager-1.21-5.jar' in 796ms.
-[15:38:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[15:38:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - ChatManager (1.21-5), DeadChest (4.21.1), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), SinglePlayerSleep (1.16_2.13.53), SkinsRestorer (15.5.0), SpecialPrefix (1.1e)
-[15:38:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:38:23] [ServerMain/INFO]: Loaded 1290 recipes
-[15:38:24] [ServerMain/INFO]: Loaded 1399 advancements
-[15:38:24] [Server thread/INFO]: Starting minecraft server version 1.21
-[15:38:24] [Server thread/INFO]: Loading properties
-[15:38:24] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[15:38:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:38:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:38:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:38:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[15:38:26] [Server thread/INFO]: Default game type: SURVIVAL
-[15:38:26] [Server thread/INFO]: Generating keypair
-[15:38:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:38:26] [Server thread/INFO]: Using epoll channel type
-[15:38:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:38:26] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:38:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
-[15:38:28] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
-[15:38:28] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v1.21-5
-[15:38:28] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.16_2.13.53
-[15:38:28] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
-[15:38:29] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
-[15:38:29] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[15:38:29] [Server thread/INFO]: [SpecialPrefix] Loading server plugin SpecialPrefix v1.1e
-[15:38:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:38:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
-[15:38:29] [Server thread/INFO]:         __    
-[15:38:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
-[15:38:29] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:38:29] [Server thread/INFO]: 
-[15:38:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:38:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:38:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:38:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:38:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1220ms)
-[15:38:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[15:38:31] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[15:38:32] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[15:38:33] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:38:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:38:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:38:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:38:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:38:33] [Server thread/INFO]: Preparing level "world"
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:38:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:38:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:38:35] [Server thread/INFO]: Time elapsed: 1207 ms
-[15:38:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:38:35] [Server thread/INFO]: Time elapsed: 310 ms
-[15:38:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:38:35] [Server thread/INFO]: Time elapsed: 183 ms
-[15:38:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-[15:38:36] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:38:37] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:38:37] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:38:37] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[15:38:37] [Server thread/INFO]: [Essentials] Using locale en
-[15:38:37] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:38:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:38:38] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[15:38:38] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:38:38] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:38:38] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.21-5
-[15:38:38] [Server thread/INFO]: [ChatManager] Copied config.yml because it did not exist...
-[15:38:38] [Server thread/INFO]: [ChatManager] Copied Messages.yml because it did not exist...
-[15:38:38] [Server thread/INFO]: [ChatManager] Copied bannedwords.yml because it did not exist...
-[15:38:38] [Server thread/INFO]: [ChatManager] Copied AutoBroadcast.yml because it did not exist...
-[15:38:38] [Server thread/INFO]: [ChatManager] Copied bannedcommands.yml because it did not exist...
-[15:38:38] [Server thread/INFO]: [ChatManager] GenericVanish: FOUND
-[15:38:38] [Server thread/INFO]: [ChatManager] Vault: NOT FOUND
-[15:38:38] [Server thread/INFO]: [ChatManager] PlaceholderAPI: NOT FOUND
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.16_2.13.53
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] **************************************
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] v1.16_2.13.53 Loading...
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Jar Filename: SinglePlayerSleep-1.16_2.13.53.jar
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Server Version: 1.21-130-b1b5d4c (MC: 1.21)
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Loading file version checker...
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Loading config file...
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Loading messages file...
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Loading config.yml...
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Loading messages.yml...
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] Checking for updates...
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] * Version is up to date!
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] * Donate: https://ko-fi.com/joelgodofwar
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:38:38] [Server thread/INFO]: [SinglePlayerSleep] plugins/SinglePlayerSleep/permissions.yml
-[15:38:39] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is ENABLED - Loading took 501 ms.
-[15:38:39] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Enabling SpecialPrefix v1.1e
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
-[15:38:39] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Enabled
-[15:38:39] [Server thread/INFO]: [spark] Starting background profiler...
-[15:38:39] [Server thread/INFO]: Done preparing level "world" (6.318s)
-[15:38:39] [Server thread/INFO]: Running delayed init tasks
-[15:38:39] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:38:39] [Server thread/INFO]: Done (24.489s)! For help, type "help"
-[15:38:39] [Server thread/INFO]: Timings Reset
-[15:38:58] [User Authenticator #0/INFO]: UUID of player BladePatterson_ is a7c0ced6-10b5-3ebb-b76b-0fcee15adfd6
-[15:39:00] [Server thread/INFO]: BladePatterson_ joined the game
-[15:39:00] [Server thread/INFO]: BladePatterson_[/127.104.23.9:43411] logged in with entity id 54 at ([world]-61.509990507624266, 64.0, 82.71248331229552)
-[15:41:30] [Server thread/INFO]: BladePatterson_ issued server command: /setplayerprefix: specialprefix.admin
-[15:41:43] [Server thread/INFO]: BladePatterson_ issued server command: /setplayerprefix BladePatterson_ Owner
-[15:41:43] [Server thread/INFO]: [LP] Another command is being executed, waiting for it to finish...
-[15:41:43] [luckperms-command-executor/INFO]: [LP] bladepatterson_ had all prefixes at priority 2 removed in context global.
-[15:41:43] [luckperms-command-executor/INFO]: [LP] Set prefix.2.&5⭐ &6ᴏᴡɴᴇʀ Owner &7 to true for bladepatterson_ in context global.
-[15:41:53] [Async Chat Thread - #0/INFO]: [Not Secure] <BladePatterson_> hola
-[15:42:14] [Server thread/INFO]: BladePatterson_ issued server command: /setplayerprefix BladePatterson_ vip
-[15:42:14] [Server thread/INFO]: [LP] Another command is being executed, waiting for it to finish...
-[15:42:14] [luckperms-command-executor/INFO]: [LP] bladepatterson_ had all prefixes at priority 2 removed in context global.
-[15:42:14] [luckperms-command-executor/INFO]: [LP] Set prefix.2.&5⭐ &6ᴏᴡɴᴇʀ vip &7 to true for bladepatterson_ in context global.
-[15:42:16] [Server thread/INFO]: BladePatterson_ lost connection: Disconnected
-[15:42:16] [Server thread/INFO]: BladePatterson_ left the game
-[15:42:20] [User Authenticator #1/INFO]: UUID of player BladePatterson_ is a7c0ced6-10b5-3ebb-b76b-0fcee15adfd6
-[15:42:20] [Server thread/INFO]: BladePatterson_ joined the game
-[15:42:20] [Server thread/INFO]: BladePatterson_[/127.104.23.9:33255] logged in with entity id 549 at ([world]-63.607331259207136, 64.0, 82.0689547488537)
-[15:43:43] [Server thread/INFO]: BladePatterson_ issued server command: /specialprefix BladePatterson_
-[15:43:47] [Server thread/INFO]: BladePatterson_ issued server command: /specialprefix reload
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
-[15:43:47] [Server thread/INFO]: [SpecialPrefix] Configuration reloaded by BladePatterson_
-[15:43:55] [Server thread/INFO]: BladePatterson_ issued server command: /specialprefix:setplayerprefix BladePatterson_ owner
-[15:44:01] [Server thread/INFO]: BladePatterson_ issued server command: /specialprefix:setplayerprefix BladePatterson_ Owner
-[15:44:12] [Server thread/INFO]: BladePatterson_ has made the advancement [Monster Hunter]
-[15:44:15] [Server thread/INFO]: BladePatterson_ lost connection: Disconnected
-[15:44:15] [Server thread/INFO]: BladePatterson_ left the game
-[15:45:05] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[15:45:19] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[15:45:19] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[15:45:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:45:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:45:19] [Server thread/INFO]: [SpecialPrefix] Disabling SpecialPrefix v1.1e
-[15:45:19] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Disabled
-[15:45:19] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[15:45:19] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
-[15:45:19] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
-[15:45:19] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
-[15:45:19] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.21-5
-[15:45:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
-[15:45:19] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[15:45:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
-[15:45:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:45:19] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:45:19] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:45:19] [Server thread/INFO]: Loaded 1290 recipes
-[15:45:19] [Server thread/INFO]: Loaded 1399 advancements
-[15:45:20] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:45:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/DailyReward-2.7.0.jar'...
-[15:45:20] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/TAB v5.0.3.jar'...
-[15:45:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DailyReward-2.7.0.jar' in 446ms.
-[15:45:20] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TAB v5.0.3.jar' in 569ms.
-[15:45:20] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[15:45:20] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[04:06:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[04:06:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[04:06:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:06:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[04:06:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - ChatManager (1.21-5), DailyRewards (2.7.0), DeadChest (4.21.1), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), SinglePlayerSleep (1.16_2.13.53), SkinsRestorer (15.5.0), SpecialPrefix (1.1e), TAB (5.0.3)
-[15:45:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
-[15:45:21] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
-[15:45:21] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v1.21-5
-[15:45:21] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.16_2.13.53
-[15:45:21] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
-[15:45:21] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
-[15:45:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
-[15:45:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[15:45:21] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v2.7.0
-[15:45:21] [Server thread/INFO]: [SpecialPrefix] Loading server plugin SpecialPrefix v1.1e
-[15:45:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:45:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
-[15:45:21] [Server thread/INFO]:         __    
-[15:45:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
-[15:45:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:45:21] [Server thread/INFO]: 
-[15:45:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:45:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:45:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:45:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:45:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 847ms)
-[15:45:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[15:45:22] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[15:45:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[15:45:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[15:45:24] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:45:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.5.0
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: ad418e4
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:45:24] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:45:25] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:45:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:45:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:45:25] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[15:45:25] [Server thread/INFO]: [Essentials] Using locale en
-[15:45:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:45:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:45:25] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[15:45:25] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:45:25] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:45:25] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.21-5
-[15:45:25] [Server thread/INFO]: [ChatManager] Loading the file config.yml...
-[15:45:25] [Server thread/INFO]: [ChatManager] Loading the file Messages.yml...
-[15:45:25] [Server thread/INFO]: [ChatManager] Loading the file bannedwords.yml...
-[15:45:25] [Server thread/INFO]: [ChatManager] Loading the file AutoBroadcast.yml...
-[15:45:25] [Server thread/INFO]: [ChatManager] Loading the file bannedcommands.yml...
-[15:45:25] [Server thread/INFO]: [ChatManager] GenericVanish: FOUND
-[15:45:25] [Server thread/INFO]: [ChatManager] Vault: NOT FOUND
-[15:45:25] [Server thread/INFO]: [ChatManager] PlaceholderAPI: NOT FOUND
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.16_2.13.53
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] **************************************
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] v1.16_2.13.53 Loading...
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Jar Filename: SinglePlayerSleep-1.16_2.13.53.jar
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Server Version: 1.21-130-b1b5d4c (MC: 1.21)
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Loading file version checker...
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Loading config file...
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Loading messages file...
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Loading config.yml...
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Loading messages.yml...
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] Checking for updates...
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] * Version is up to date!
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] * Donate: https://ko-fi.com/joelgodofwar
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep] plugins/SinglePlayerSleep/permissions.yml
-[15:45:26] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is ENABLED - Loading took 308 ms.
-[15:45:26] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
-[15:45:26] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
-[15:45:26] [Server thread/INFO]: [TAB] Loaded NMS hook in 54ms
-[15:45:27] [Server thread/INFO]: [TAB] Enabled in 577ms
-[15:45:27] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v2.7.0
-[15:45:27] [Server thread/INFO]: [DailyRewards] BStatsHook has been registered.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/English.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Czech.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Chinese.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/French.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Portuguese.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Romanian.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/German.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Polish.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Russian.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Turkish.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Spanish.yml successfully copied.
-[15:45:27] [Server thread/INFO]: [DailyRewards] Resource lang/Finnish.yml successfully copied.
-[15:45:27] [Server thread/INFO]:  
-[15:45:27] [Server thread/INFO]:  
-[15:45:27] [Server thread/INFO]:  
-[15:45:27] [Server thread/INFO]: [DailyRewards] Unleash the full potential of DailyRewards by upgrading to ULTIMATE!
-[15:45:27] [Server thread/INFO]: [DailyRewards] Get it from https://bit.ly/ultimate-rewards
-[15:45:27] [Server thread/INFO]:  
-[15:45:27] [Server thread/INFO]:  
-[15:45:27] [Server thread/INFO]:  
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Enabling SpecialPrefix v1.1e
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
-[15:45:27] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Enabled
-[15:45:27] [Server thread/INFO]: CONSOLE: Reload complete.
-[15:45:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8241ms or 164 ticks behind
-[15:45:27] [Server thread/INFO]: Timings Reset
-[15:45:27] [Craft Scheduler Thread - 10 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:45:27] [Craft Scheduler Thread - 11 - DailyRewards/INFO]: [DailyRewards] You are running the latest release (2.7.0).
-[15:45:39] [User Authenticator #2/INFO]: UUID of player BladePatterson_ is a7c0ced6-10b5-3ebb-b76b-0fcee15adfd6
-[15:45:40] [Server thread/INFO]: BladePatterson_ joined the game
-[15:45:40] [Server thread/INFO]: BladePatterson_[/127.104.23.9:43305] logged in with entity id 748 at ([world]-73.32234426585623, 63.0, 83.75175327138183)
-[15:46:01] [Server thread/INFO]: BladePatterson_ issued server command: /specialprefix:specialprefix BladePatterson_
-[15:46:27] [Server thread/INFO]: BladePatterson_ issued server command: /god
-[15:48:40] [Server thread/INFO]: BladePatterson_ issued server command: /dailyrewards
-[15:48:52] [Server thread/INFO]: BladePatterson_ issued server command: /dailyrewards:reward
-[15:48:54] [Server thread/INFO]: BladePatterson_ issued server command: /dailyrewards:rewards
-[15:50:17] [Async Chat Thread - #1/INFO]: [Not Secure] <BladePatterson_> hola
-[15:51:44] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[15:51:48] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[15:51:48] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[15:51:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:51:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:51:48] [Server thread/INFO]: [SpecialPrefix] Disabling SpecialPrefix v1.1e
-[15:51:48] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Disabled
-[15:51:48] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v2.7.0
-[15:51:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[15:51:48] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
-[15:51:48] [Server thread/INFO]: [TAB] Disabled in 2ms
-[15:51:48] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
-[15:51:48] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
-[15:51:48] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
-[15:51:48] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.21-5
-[15:51:48] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
-[15:51:48] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[15:51:48] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
-[15:51:48] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:51:48] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:51:48] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:51:48] [Server thread/INFO]: Loaded 1290 recipes
-[15:51:48] [Server thread/INFO]: Loaded 1399 advancements
-[15:51:48] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:51:48] [Paper Async Command Builder Thread Pool - 3/ERROR]: Caught previously unhandled exception :
-[15:51:48] [Paper Async Command Builder Thread Pool - 3/ERROR]: Paper Async Command Builder Thread Pool - 3
+[04:06:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:06:56] [ServerMain/INFO]: Loaded 1290 recipes
+[04:06:56] [ServerMain/INFO]: Loaded 1399 advancements
+[04:06:57] [Server thread/INFO]: Starting minecraft server version 1.21
+[04:06:57] [Server thread/INFO]: Loading properties
+[04:06:57] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[04:06:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:06:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:06:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:06:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[04:06:59] [Server thread/INFO]: Default game type: SURVIVAL
+[04:06:59] [Server thread/INFO]: Generating keypair
+[04:06:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:06:59] [Server thread/INFO]: Using epoll channel type
+[04:06:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:06:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:07:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[04:07:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[04:07:00] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v1.21-5
+[04:07:00] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.16_2.13.53
+[04:07:01] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
+[04:07:01] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[04:07:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[04:07:01] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[04:07:01] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v2.7.0
+[04:07:01] [Server thread/INFO]: [SpecialPrefix] Loading server plugin SpecialPrefix v1.1e
+[04:07:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:07:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[04:07:02] [Server thread/INFO]:         __    
+[04:07:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[04:07:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:07:02] [Server thread/INFO]: 
+[04:07:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:07:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:07:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:07:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:07:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3550ms)
+[04:07:04] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[04:07:06] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[04:07:07] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[04:07:09] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:07:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:07:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:07:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:07:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:07:09] [Server thread/INFO]: Preparing level "world"
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:07:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:07:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:07:12] [Server thread/INFO]: Time elapsed: 1924 ms
+[04:07:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:07:12] [Server thread/INFO]: Time elapsed: 306 ms
+[04:07:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:07:12] [Server thread/INFO]: Time elapsed: 221 ms
+[04:07:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[04:07:14] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[04:07:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:07:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:07:15] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[04:07:15] [Server thread/INFO]: [Essentials] Using locale en
+[04:07:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:07:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:07:16] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[04:07:16] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[04:07:16] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:07:16] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.21-5
+[04:07:16] [Server thread/INFO]: [ChatManager] Loading the file config.yml...
+[04:07:16] [Server thread/INFO]: [ChatManager] Loading the file Messages.yml...
+[04:07:16] [Server thread/INFO]: [ChatManager] Loading the file bannedwords.yml...
+[04:07:16] [Server thread/INFO]: [ChatManager] Loading the file AutoBroadcast.yml...
+[04:07:16] [Server thread/INFO]: [ChatManager] Loading the file bannedcommands.yml...
+[04:07:16] [Server thread/INFO]: [ChatManager] GenericVanish: FOUND
+[04:07:16] [Server thread/INFO]: [ChatManager] Vault: NOT FOUND
+[04:07:16] [Server thread/INFO]: [ChatManager] PlaceholderAPI: NOT FOUND
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.16_2.13.53
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] **************************************
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] v1.16_2.13.53 Loading...
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Jar Filename: SinglePlayerSleep-1.16_2.13.53.jar
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Server Version: 1.21-130-b1b5d4c (MC: 1.21)
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Loading file version checker...
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Loading config file...
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Loading messages file...
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Loading config.yml...
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Loading messages.yml...
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] Checking for updates...
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] * Version is up to date!
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] * Donate: https://ko-fi.com/joelgodofwar
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep] plugins/SinglePlayerSleep/permissions.yml
+[04:07:17] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is ENABLED - Loading took 537 ms.
+[04:07:17] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
+[04:07:17] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[04:07:18] [Server thread/INFO]: [TAB] Loaded NMS hook in 235ms
+[04:07:19] [Server thread/INFO]: [TAB] Enabled in 820ms
+[04:07:19] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v2.7.0
+[04:07:19] [Server thread/INFO]: [DailyRewards] BStatsHook has been registered.
+[04:07:19] [Server thread/INFO]:  
+[04:07:19] [Server thread/INFO]:  
+[04:07:19] [Server thread/INFO]:  
+[04:07:19] [Server thread/INFO]: [DailyRewards] Unleash the full potential of DailyRewards by upgrading to ULTIMATE!
+[04:07:19] [Server thread/INFO]: [DailyRewards] Get it from https://bit.ly/ultimate-rewards
+[04:07:19] [Server thread/INFO]:  
+[04:07:19] [Server thread/INFO]:  
+[04:07:19] [Server thread/INFO]:  
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Enabling SpecialPrefix v1.1e
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
+[04:07:19] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Enabled
+[04:07:19] [Server thread/INFO]: [spark] Starting background profiler...
+[04:07:20] [Server thread/INFO]: Done preparing level "world" (11.024s)
+[04:07:20] [Server thread/INFO]: Running delayed init tasks
+[04:07:20] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:07:20] [Server thread/INFO]: Done (35.040s)! For help, type "help"
+[04:07:20] [Server thread/INFO]: Timings Reset
+[04:07:20] [Craft Scheduler Thread - 2 - DailyRewards/INFO]: [DailyRewards] You are running the latest release (2.7.0).
+[04:07:36] [User Authenticator #0/INFO]: UUID of player BladePatterson_ is a7c0ced6-10b5-3ebb-b76b-0fcee15adfd6
+[04:07:37] [Server thread/INFO]: BladePatterson_ joined the game
+[04:07:37] [Server thread/INFO]: BladePatterson_[/127.104.23.9:48781] logged in with entity id 56 at ([world]-24.643963733661725, 71.0, 73.40588589112862)
+[04:08:22] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[04:08:26] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[04:08:26] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[04:08:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:08:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:08:27] [Server thread/INFO]: [SpecialPrefix] Disabling SpecialPrefix v1.1e
+[04:08:27] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Disabled
+[04:08:27] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v2.7.0
+[04:08:27] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[04:08:27] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
+[04:08:27] [Server thread/INFO]: [TAB] Disabled in 2ms
+[04:08:27] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
+[04:08:27] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
+[04:08:27] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
+[04:08:27] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.21-5
+[04:08:27] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[04:08:27] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[04:08:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[04:08:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:08:27] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:08:27] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:08:27] [Server thread/INFO]: Loaded 1290 recipes
+[04:08:27] [Server thread/INFO]: Loaded 1399 advancements
+[04:08:27] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:08:27] [Paper Async Command Builder Thread Pool - 0/ERROR]: Caught previously unhandled exception :
+[04:08:27] [Paper Async Command Builder Thread Pool - 0/ERROR]: Paper Async Command Builder Thread Pool - 0
 java.util.ConcurrentModificationException: null
 	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
 	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
@@ -363,19 +180,22 @@ java.util.ConcurrentModificationException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:51:48] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[15:51:48] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - ChatManager (1.21-5), DailyRewards (2.7.0), DeadChest (4.21.1), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), SinglePlayerSleep (1.16_2.13.53), SkinsRestorer (15.5.0), SpecialPrefix (1.1e), TAB (5.0.3)
-[15:51:49] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
-[15:51:49] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
-[15:51:49] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v1.21-5
-[15:51:49] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.16_2.13.53
-[15:51:49] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
-[15:51:49] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
-[15:51:49] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
-[15:51:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[15:51:49] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v2.7.0
-[15:51:49] [Server thread/ERROR]: [DailyRewards] Error initializing plugin 'DailyReward-2.7.0.jar' in folder 'plugins/.paper-remapped' (Is it up to date?)
+[04:08:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/CrisTreeCapitator.jar'...
+[04:08:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/CrisTreeCapitator.jar' in 381ms.
+[04:08:28] [Server thread/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[04:08:28] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - ChatManager (1.21-5), CrisTreeCapitator (6.4.4), DailyRewards (2.7.0), DeadChest (4.21.1), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), SinglePlayerSleep (1.16_2.13.53), SkinsRestorer (15.5.0), SpecialPrefix (1.1e), TAB (5.0.3)
+[04:08:28] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[04:08:28] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[04:08:28] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v1.21-5
+[04:08:28] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.16_2.13.53
+[04:08:28] [Server thread/INFO]: [CrisTreeCapitator] Loading server plugin CrisTreeCapitator v6.4.4
+[04:08:28] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
+[04:08:28] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[04:08:28] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[04:08:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[04:08:28] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v2.7.0
+[04:08:28] [Server thread/ERROR]: [DailyRewards] Error initializing plugin 'DailyReward-2.7.0.jar' in folder 'plugins/.paper-remapped' (Is it up to date?)
 java.lang.ExceptionInInitializerError: null
 	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.DataManager.getPlayerData(DataManager.java:110) ~[DailyReward-2.7.0.jar:?]
 	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.lambda$onLoad$1(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
@@ -402,104 +222,109 @@ java.lang.ExceptionInInitializerError: null
 Caused by: java.lang.NullPointerException: Cannot invoke "dev.revivalo.dailyrewards.DailyRewardsPlugin.getDataFolder()" because the return value of "dev.revivalo.dailyrewards.DailyRewardsPlugin.get()" is null
 	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.PlayerData.<clinit>(PlayerData.java:14) ~[DailyReward-2.7.0.jar:?]
 	... 22 more
-[15:51:49] [Server thread/INFO]: [SpecialPrefix] Loading server plugin SpecialPrefix v1.1e
-[15:51:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:51:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
-[15:51:49] [Server thread/INFO]:         __    
-[15:51:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
-[15:51:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:51:49] [Server thread/INFO]: 
-[15:51:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:51:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:51:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:51:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:51:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 667ms)
-[15:51:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[15:51:50] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[15:51:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[15:51:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[15:51:52] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:51:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.5.0
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: ad418e4
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:51:52] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:51:53] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:51:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:51:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:51:53] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[15:51:53] [Server thread/INFO]: [Essentials] Using locale en
-[15:51:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:51:53] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:51:53] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[15:51:53] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:51:53] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:51:53] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.21-5
-[15:51:53] [Server thread/INFO]: [ChatManager] Loading the file config.yml...
-[15:51:53] [Server thread/INFO]: [ChatManager] Loading the file Messages.yml...
-[15:51:53] [Server thread/INFO]: [ChatManager] Loading the file bannedwords.yml...
-[15:51:53] [Server thread/INFO]: [ChatManager] Loading the file AutoBroadcast.yml...
-[15:51:53] [Server thread/INFO]: [ChatManager] Loading the file bannedcommands.yml...
-[15:51:53] [Server thread/INFO]: [ChatManager] GenericVanish: FOUND
-[15:51:53] [Server thread/INFO]: [ChatManager] Vault: NOT FOUND
-[15:51:53] [Server thread/INFO]: [ChatManager] PlaceholderAPI: NOT FOUND
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.16_2.13.53
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] **************************************
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] v1.16_2.13.53 Loading...
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Jar Filename: SinglePlayerSleep-1.16_2.13.53.jar
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Server Version: 1.21-130-b1b5d4c (MC: 1.21)
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Loading file version checker...
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Loading config file...
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Loading messages file...
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Loading config.yml...
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Loading messages.yml...
-[15:51:53] [Server thread/INFO]: [SinglePlayerSleep] Checking for updates...
-[15:51:54] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:51:54] [Server thread/INFO]: [SinglePlayerSleep] * Version is up to date!
-[15:51:54] [Server thread/INFO]: [SinglePlayerSleep] * Donate: https://ko-fi.com/joelgodofwar
-[15:51:54] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:51:54] [Server thread/INFO]: [SinglePlayerSleep] plugins/SinglePlayerSleep/permissions.yml
-[15:51:54] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is ENABLED - Loading took 279 ms.
-[15:51:54] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
-[15:51:54] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
-[15:51:54] [Server thread/INFO]: [TAB] Loaded NMS hook in 50ms
-[15:51:55] [Server thread/INFO]: [TAB] Enabled in 633ms
-[15:51:55] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v2.7.0
-[15:51:55] [Server thread/INFO]: [DailyRewards] BStatsHook has been registered.
-[15:51:55] [Server thread/INFO]:  
-[15:51:55] [Server thread/INFO]:  
-[15:51:55] [Server thread/INFO]:  
-[15:51:55] [Server thread/INFO]: [DailyRewards] Unleash the full potential of DailyRewards by upgrading to ULTIMATE!
-[15:51:55] [Server thread/INFO]: [DailyRewards] Get it from https://bit.ly/ultimate-rewards
-[15:51:55] [Server thread/INFO]:  
-[15:51:55] [Server thread/INFO]:  
-[15:51:55] [Server thread/INFO]:  
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Enabling SpecialPrefix v1.1e
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
-[15:51:55] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Enabled
-[15:51:55] [Paper Async Command Builder Thread Pool - 4/ERROR]: Caught previously unhandled exception :
-[15:51:55] [Paper Async Command Builder Thread Pool - 4/ERROR]: Paper Async Command Builder Thread Pool - 4
+[04:08:28] [Server thread/INFO]: [SpecialPrefix] Loading server plugin SpecialPrefix v1.1e
+[04:08:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:08:28] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[04:08:28] [Server thread/INFO]:         __    
+[04:08:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[04:08:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:08:28] [Server thread/INFO]: 
+[04:08:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:08:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:08:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:08:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:08:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 711ms)
+[04:08:29] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[04:08:30] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[04:08:30] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[04:08:30] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[04:08:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:08:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.5.0
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: ad418e4
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:08:31] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:08:32] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[04:08:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:08:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:08:32] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[04:08:32] [Server thread/INFO]: [Essentials] Using locale en
+[04:08:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:08:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:08:33] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[04:08:33] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[04:08:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:08:33] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.21-5
+[04:08:33] [Server thread/INFO]: [ChatManager] Loading the file config.yml...
+[04:08:33] [Server thread/INFO]: [ChatManager] Loading the file Messages.yml...
+[04:08:33] [Server thread/INFO]: [ChatManager] Loading the file bannedwords.yml...
+[04:08:33] [Server thread/INFO]: [ChatManager] Loading the file AutoBroadcast.yml...
+[04:08:33] [Server thread/INFO]: [ChatManager] Loading the file bannedcommands.yml...
+[04:08:33] [Server thread/INFO]: [ChatManager] GenericVanish: FOUND
+[04:08:33] [Server thread/INFO]: [ChatManager] Vault: NOT FOUND
+[04:08:33] [Server thread/INFO]: [ChatManager] PlaceholderAPI: NOT FOUND
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.16_2.13.53
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] **************************************
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] v1.16_2.13.53 Loading...
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Jar Filename: SinglePlayerSleep-1.16_2.13.53.jar
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Server Version: 1.21-130-b1b5d4c (MC: 1.21)
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Loading file version checker...
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Loading config file...
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Loading messages file...
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Loading config.yml...
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Loading messages.yml...
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] Checking for updates...
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] * Version is up to date!
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] * Donate: https://ko-fi.com/joelgodofwar
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep] plugins/SinglePlayerSleep/permissions.yml
+[04:08:33] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is ENABLED - Loading took 201 ms.
+[04:08:33] [Server thread/INFO]: [CrisTreeCapitator] Enabling CrisTreeCapitator v6.4.4
+[04:08:33] [Server thread/INFO]: [CrisTreeCapitator] WorldGuard not found. Maybe WorldGuard or this plugin are not up to date?
+[04:08:33] [Server thread/ERROR]: [CrisTreeCapitator] [STDERR] Configuration file not created yet. Skipping load.
+[04:08:33] [Server thread/WARN]: Nag author(s): '[]' of 'CrisTreeCapitator v6.4.4' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[04:08:33] [Server thread/INFO]: [CrisTreeCapitator] Enabled
+[04:08:33] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
+[04:08:33] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[04:08:33] [Server thread/INFO]: [TAB] Loaded NMS hook in 48ms
+[04:08:34] [Server thread/INFO]: [TAB] Enabled in 601ms
+[04:08:34] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v2.7.0
+[04:08:34] [Server thread/INFO]: [DailyRewards] BStatsHook has been registered.
+[04:08:35] [Server thread/INFO]:  
+[04:08:35] [Server thread/INFO]:  
+[04:08:35] [Server thread/INFO]:  
+[04:08:35] [Server thread/INFO]: [DailyRewards] Unleash the full potential of DailyRewards by upgrading to ULTIMATE!
+[04:08:35] [Server thread/INFO]: [DailyRewards] Get it from https://bit.ly/ultimate-rewards
+[04:08:35] [Server thread/INFO]:  
+[04:08:35] [Server thread/INFO]:  
+[04:08:35] [Server thread/INFO]:  
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Enabling SpecialPrefix v1.1e
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
+[04:08:35] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Enabled
+[04:08:35] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
+[04:08:35] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
 java.util.ConcurrentModificationException: null
 	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
 	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
@@ -509,443 +334,13 @@ java.util.ConcurrentModificationException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:51:55] [Server thread/INFO]: CONSOLE: Reload complete.
-[15:51:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7391ms or 147 ticks behind
-[15:51:55] [Server thread/INFO]: Timings Reset
-[15:51:55] [Craft Scheduler Thread - 40 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:51:55] [Craft Scheduler Thread - 39 - DailyRewards/INFO]: [DailyRewards] You are running the latest release (2.7.0).
-[15:52:36] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[15:52:36] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[15:52:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:52:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:52:37] [Server thread/INFO]: [SpecialPrefix] Disabling SpecialPrefix v1.1e
-[15:52:37] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Disabled
-[15:52:37] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v2.7.0
-[15:52:37] [Server thread/ERROR]: Error occurred while disabling DailyRewards v2.7.0
-java.lang.NoClassDefFoundError: Could not initialize class dev.revivalo.dailyrewards.data.PlayerData
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.onDisable(DailyRewardsPlugin.java:130) ~[DailyReward-2.7.0.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.clearPlugins(PaperPluginInstanceManager.java:167) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.clearPlugins(PaperPluginManagerImpl.java:102) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:607) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1092) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "Server thread"]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.PlayerData.<clinit>(PlayerData.java:14) ~[DailyReward-2.7.0.jar:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.DataManager.getPlayerData(DataManager.java:110) ~[DailyReward-2.7.0.jar:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.lambda$onLoad$1(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116) ~[?:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.onLoad(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	... 11 more
-[15:52:37] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[15:52:37] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
-[15:52:37] [Server thread/INFO]: [TAB] Disabled in 2ms
-[15:52:37] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
-[15:52:37] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
-[15:52:37] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
-[15:52:37] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.21-5
-[15:52:37] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
-[15:52:37] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[15:52:37] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
-[15:52:37] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:52:37] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:52:37] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:52:37] [Server thread/INFO]: Loaded 1290 recipes
-[15:52:37] [Server thread/INFO]: Loaded 1399 advancements
-[15:52:37] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:52:37] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[15:52:37] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - ChatManager (1.21-5), DailyRewards (2.7.0), DeadChest (4.21.1), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), SinglePlayerSleep (1.16_2.13.53), SkinsRestorer (15.5.0), SpecialPrefix (1.1e), TAB (5.0.3)
-[15:52:37] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
-[15:52:37] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
-[15:52:37] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v1.21-5
-[15:52:37] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.16_2.13.53
-[15:52:38] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
-[15:52:38] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
-[15:52:38] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
-[15:52:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[15:52:38] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v2.7.0
-[15:52:38] [Server thread/ERROR]: [DailyRewards] Error initializing plugin 'DailyReward-2.7.0.jar' in folder 'plugins/.paper-remapped' (Is it up to date?)
-java.lang.ExceptionInInitializerError: null
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.DataManager.getPlayerData(DataManager.java:110) ~[DailyReward-2.7.0.jar:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.lambda$onLoad$1(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116) ~[?:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.onLoad(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "dev.revivalo.dailyrewards.DailyRewardsPlugin.getDataFolder()" because the return value of "dev.revivalo.dailyrewards.DailyRewardsPlugin.get()" is null
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.PlayerData.<clinit>(PlayerData.java:14) ~[DailyReward-2.7.0.jar:?]
-	... 22 more
-[15:52:38] [Server thread/INFO]: [SpecialPrefix] Loading server plugin SpecialPrefix v1.1e
-[15:52:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:52:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
-[15:52:38] [Server thread/INFO]:         __    
-[15:52:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
-[15:52:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:52:38] [Server thread/INFO]: 
-[15:52:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:52:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:52:38] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:52:38] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:52:38] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 630ms)
-[15:52:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[15:52:39] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[15:52:39] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[15:52:39] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[15:52:40] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:52:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.5.0
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: ad418e4
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:52:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:52:41] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:52:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:52:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:52:41] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[15:52:41] [Server thread/INFO]: [Essentials] Using locale en
-[15:52:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:52:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:52:42] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[15:52:42] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:52:42] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:52:42] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.21-5
-[15:52:42] [Server thread/INFO]: [ChatManager] Loading the file config.yml...
-[15:52:42] [Server thread/INFO]: [ChatManager] Loading the file Messages.yml...
-[15:52:42] [Server thread/INFO]: [ChatManager] Loading the file bannedwords.yml...
-[15:52:42] [Server thread/INFO]: [ChatManager] Loading the file AutoBroadcast.yml...
-[15:52:42] [Server thread/INFO]: [ChatManager] Loading the file bannedcommands.yml...
-[15:52:42] [Server thread/INFO]: [ChatManager] GenericVanish: FOUND
-[15:52:42] [Server thread/INFO]: [ChatManager] Vault: NOT FOUND
-[15:52:42] [Server thread/INFO]: [ChatManager] PlaceholderAPI: NOT FOUND
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.16_2.13.53
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] **************************************
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] v1.16_2.13.53 Loading...
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Jar Filename: SinglePlayerSleep-1.16_2.13.53.jar
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Server Version: 1.21-130-b1b5d4c (MC: 1.21)
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Loading file version checker...
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Loading config file...
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Loading messages file...
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Loading config.yml...
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Loading messages.yml...
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] Checking for updates...
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] * Version is up to date!
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] * Donate: https://ko-fi.com/joelgodofwar
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep] plugins/SinglePlayerSleep/permissions.yml
-[15:52:42] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is ENABLED - Loading took 365 ms.
-[15:52:42] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
-[15:52:42] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
-[15:52:42] [Server thread/INFO]: [TAB] Loaded NMS hook in 46ms
-[15:52:43] [Server thread/INFO]: [TAB] Enabled in 569ms
-[15:52:43] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v2.7.0
-[15:52:43] [Server thread/INFO]: [DailyRewards] BStatsHook has been registered.
-[15:52:43] [Server thread/INFO]:  
-[15:52:43] [Server thread/INFO]:  
-[15:52:43] [Server thread/INFO]:  
-[15:52:43] [Server thread/INFO]: [DailyRewards] Unleash the full potential of DailyRewards by upgrading to ULTIMATE!
-[15:52:43] [Server thread/INFO]: [DailyRewards] Get it from https://bit.ly/ultimate-rewards
-[15:52:43] [Server thread/INFO]:  
-[15:52:43] [Server thread/INFO]:  
-[15:52:43] [Server thread/INFO]:  
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Enabling SpecialPrefix v1.1e
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
-[15:52:43] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Enabled
-[15:52:44] [Paper Async Command Builder Thread Pool - 5/ERROR]: Caught previously unhandled exception :
-[15:52:44] [Paper Async Command Builder Thread Pool - 5/ERROR]: Paper Async Command Builder Thread Pool - 5
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:52:44] [Server thread/INFO]: CONSOLE: Reload complete.
-[15:52:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7087ms or 141 ticks behind
-[15:52:44] [Server thread/INFO]: Timings Reset
-[15:52:44] [Craft Scheduler Thread - 43 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:52:44] [Craft Scheduler Thread - 40 - DailyRewards/INFO]: [DailyRewards] You are running the latest release (2.7.0).
-[15:53:10] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[15:53:10] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[15:53:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:53:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:53:10] [Server thread/INFO]: [SpecialPrefix] Disabling SpecialPrefix v1.1e
-[15:53:10] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Disabled
-[15:53:10] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v2.7.0
-[15:53:10] [Server thread/ERROR]: Error occurred while disabling DailyRewards v2.7.0
-java.lang.NoClassDefFoundError: Could not initialize class dev.revivalo.dailyrewards.data.PlayerData
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.onDisable(DailyRewardsPlugin.java:130) ~[DailyReward-2.7.0.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.clearPlugins(PaperPluginInstanceManager.java:167) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.clearPlugins(PaperPluginManagerImpl.java:102) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:607) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1092) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "Server thread"]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.PlayerData.<clinit>(PlayerData.java:14) ~[DailyReward-2.7.0.jar:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.DataManager.getPlayerData(DataManager.java:110) ~[DailyReward-2.7.0.jar:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.lambda$onLoad$1(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116) ~[?:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.onLoad(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	... 11 more
-[15:53:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[15:53:10] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
-[15:53:10] [Server thread/INFO]: [TAB] Disabled in 1ms
-[15:53:10] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
-[15:53:10] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
-[15:53:10] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
-[15:53:10] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.21-5
-[15:53:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
-[15:53:10] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[15:53:10] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
-[15:53:10] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:53:10] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:53:10] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:53:10] [Server thread/INFO]: Loaded 1290 recipes
-[15:53:10] [Server thread/INFO]: Loaded 1399 advancements
-[15:53:10] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:53:10] [Paper Async Command Builder Thread Pool - 6/ERROR]: Caught previously unhandled exception :
-[15:53:10] [Paper Async Command Builder Thread Pool - 6/ERROR]: Paper Async Command Builder Thread Pool - 6
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:53:10] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[15:53:10] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - ChatManager (1.21-5), DailyRewards (2.7.0), DeadChest (4.21.1), Essentials (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), SinglePlayerSleep (1.16_2.13.53), SkinsRestorer (15.5.0), SpecialPrefix (1.1e), TAB (5.0.3)
-[15:53:11] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
-[15:53:11] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
-[15:53:11] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v1.21-5
-[15:53:11] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.16_2.13.53
-[15:53:11] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
-[15:53:11] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
-[15:53:11] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
-[15:53:11] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[15:53:11] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v2.7.0
-[15:53:11] [Server thread/ERROR]: [DailyRewards] Error initializing plugin 'DailyReward-2.7.0.jar' in folder 'plugins/.paper-remapped' (Is it up to date?)
-java.lang.ExceptionInInitializerError: null
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.DataManager.getPlayerData(DataManager.java:110) ~[DailyReward-2.7.0.jar:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.lambda$onLoad$1(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116) ~[?:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.onLoad(DailyRewardsPlugin.java:125) ~[DailyReward-2.7.0.jar:?]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "dev.revivalo.dailyrewards.DailyRewardsPlugin.getDataFolder()" because the return value of "dev.revivalo.dailyrewards.DailyRewardsPlugin.get()" is null
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.data.PlayerData.<clinit>(PlayerData.java:14) ~[DailyReward-2.7.0.jar:?]
-	... 22 more
-[15:53:11] [Server thread/INFO]: [SpecialPrefix] Loading server plugin SpecialPrefix v1.1e
-[15:53:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:53:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
-[15:53:11] [Server thread/INFO]:         __    
-[15:53:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
-[15:53:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:53:11] [Server thread/INFO]: 
-[15:53:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:53:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:53:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:53:11] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:53:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 684ms)
-[15:53:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[15:53:12] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[15:53:12] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[15:53:13] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[15:53:14] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:53:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.5.0
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: ad418e4
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:53:14] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:53:14] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:53:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:53:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:53:15] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[15:53:15] [Server thread/INFO]: [Essentials] Using locale en
-[15:53:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:53:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:53:15] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[15:53:15] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:53:15] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:53:15] [Server thread/INFO]: [ChatManager] Enabling ChatManager v1.21-5
-[15:53:15] [Server thread/INFO]: [ChatManager] Loading the file config.yml...
-[15:53:15] [Server thread/INFO]: [ChatManager] Loading the file Messages.yml...
-[15:53:15] [Server thread/INFO]: [ChatManager] Loading the file bannedwords.yml...
-[15:53:15] [Server thread/INFO]: [ChatManager] Loading the file AutoBroadcast.yml...
-[15:53:15] [Server thread/INFO]: [ChatManager] Loading the file bannedcommands.yml...
-[15:53:15] [Server thread/INFO]: [ChatManager] GenericVanish: FOUND
-[15:53:15] [Server thread/INFO]: [ChatManager] Vault: NOT FOUND
-[15:53:15] [Server thread/INFO]: [ChatManager] PlaceholderAPI: NOT FOUND
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.16_2.13.53
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] **************************************
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] v1.16_2.13.53 Loading...
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Jar Filename: SinglePlayerSleep-1.16_2.13.53.jar
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Server Version: 1.21-130-b1b5d4c (MC: 1.21)
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Loading file version checker...
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Loading config file...
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Loading messages file...
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Loading config.yml...
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Loading messages.yml...
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] Checking for updates...
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] * Version is up to date!
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] * Donate: https://ko-fi.com/joelgodofwar
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
-[15:53:15] [Server thread/INFO]: [SinglePlayerSleep] plugins/SinglePlayerSleep/permissions.yml
-[15:53:16] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is ENABLED - Loading took 271 ms.
-[15:53:16] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
-[15:53:16] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
-[15:53:16] [Server thread/INFO]: [TAB] Loaded NMS hook in 54ms
-[15:53:16] [Server thread/INFO]: [TAB] Enabled in 638ms
-[15:53:16] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v2.7.0
-[15:53:16] [Server thread/INFO]: [DailyRewards] BStatsHook has been registered.
-[15:53:17] [Server thread/INFO]:  
-[15:53:17] [Server thread/INFO]:  
-[15:53:17] [Server thread/INFO]:  
-[15:53:17] [Server thread/INFO]: [DailyRewards] Unleash the full potential of DailyRewards by upgrading to ULTIMATE!
-[15:53:17] [Server thread/INFO]: [DailyRewards] Get it from https://bit.ly/ultimate-rewards
-[15:53:17] [Server thread/INFO]:  
-[15:53:17] [Server thread/INFO]:  
-[15:53:17] [Server thread/INFO]:  
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Enabling SpecialPrefix v1.1e
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: explorer
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: miner
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mvp
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: vip
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: helper
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: mod
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded prefix: owner
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded badge: smile
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded badge: christmas
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mvp
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded badge: helper
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded badge: mod
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Loaded badge: owner
-[15:53:17] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Enabled
-[15:53:17] [Paper Async Command Builder Thread Pool - 7/ERROR]: Caught previously unhandled exception :
-[15:53:17] [Paper Async Command Builder Thread Pool - 7/ERROR]: Paper Async Command Builder Thread Pool - 7
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:53:17] [Server thread/INFO]: CONSOLE: Reload complete.
-[15:53:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7136ms or 142 ticks behind
-[15:53:17] [Server thread/INFO]: Timings Reset
-[15:53:17] [Craft Scheduler Thread - 46 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:53:17] [Craft Scheduler Thread - 45 - DailyRewards/INFO]: [DailyRewards] You are running the latest release (2.7.0).
-[15:53:37] [Async Chat Thread - #3/INFO]: [Not Secure] <BladePatterson_> hola
-[15:53:38] [Server thread/INFO]: BladePatterson_ lost connection: Disconnected
-[15:53:38] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DailyRewards v2.7.0
+[04:08:35] [Server thread/INFO]: CONSOLE: Reload complete.
+[04:08:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8302ms or 166 ticks behind
+[04:08:35] [Server thread/INFO]: Timings Reset
+[04:08:35] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:08:35] [Craft Scheduler Thread - 6 - DailyRewards/INFO]: [DailyRewards] You are running the latest release (2.7.0).
+[04:14:47] [Server thread/INFO]: BladePatterson_ lost connection: Disconnected
+[04:14:47] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DailyRewards v2.7.0
 java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
 	at java.base/java.util.concurrent.ConcurrentHashMap.replaceNode(ConcurrentHashMap.java:1111) ~[?:?]
 	at java.base/java.util.concurrent.ConcurrentHashMap.remove(ConcurrentHashMap.java:1102) ~[?:?]
@@ -969,44 +364,13 @@ java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" 
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:53:38] [Server thread/INFO]: BladePatterson_ left the game
-[15:53:42] [User Authenticator #3/INFO]: UUID of player BladePatterson_ is a7c0ced6-10b5-3ebb-b76b-0fcee15adfd6
-[15:53:42] [Server thread/INFO]: BladePatterson_ joined the game
-[15:53:43] [Server thread/INFO]: BladePatterson_[/127.104.23.9:49747] logged in with entity id 1622 at ([world]-24.23492222173731, 69.0, 65.5571554855566)
-[15:53:53] [Server thread/INFO]: BladePatterson_ issued server command: /god
-[15:53:55] [Server thread/INFO]: BladePatterson_ issued server command: /god
-[15:53:57] [Server thread/INFO]: BladePatterson_ lost connection: Disconnected
-[15:53:57] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DailyRewards v2.7.0
-java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
-	at java.base/java.util.concurrent.ConcurrentHashMap.replaceNode(ConcurrentHashMap.java:1111) ~[?:?]
-	at java.base/java.util.concurrent.ConcurrentHashMap.remove(ConcurrentHashMap.java:1102) ~[?:?]
-	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.user.UserHandler.onQuit(UserHandler.java:98) ~[DailyReward-2.7.0.jar:?]
-	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:605) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:590) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2036) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2016) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2003) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.network.Connection.handleDisconnection(Connection.java:902) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:262) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1823) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:53:57] [Server thread/INFO]: BladePatterson_ left the game
-[15:54:01] [Server thread/INFO]: Stopping the server
-[15:54:01] [Server thread/INFO]: Stopping server
-[15:54:01] [Server thread/INFO]: [SpecialPrefix] Disabling SpecialPrefix v1.1e
-[15:54:01] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Disabled
-[15:54:01] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v2.7.0
-[15:54:01] [Server thread/ERROR]: Error occurred while disabling DailyRewards v2.7.0
+[04:14:47] [Server thread/INFO]: BladePatterson_ left the game
+[04:14:52] [Server thread/INFO]: Stopping the server
+[04:14:52] [Server thread/INFO]: Stopping server
+[04:14:52] [Server thread/INFO]: [SpecialPrefix] Disabling SpecialPrefix v1.1e
+[04:14:52] [Server thread/INFO]: [SpecialPrefix] Dynamic Prefix Plugin Disabled
+[04:14:52] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v2.7.0
+[04:14:52] [Server thread/ERROR]: Error occurred while disabling DailyRewards v2.7.0
 java.lang.NoClassDefFoundError: Could not initialize class dev.revivalo.dailyrewards.data.PlayerData
 	at DailyReward-2.7.0.jar/dev.revivalo.dailyrewards.DailyRewardsPlugin.onDisable(DailyRewardsPlugin.java:130) ~[DailyReward-2.7.0.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
@@ -1043,36 +407,38 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointe
 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	... 2 more
-[15:54:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[15:54:01] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
-[15:54:01] [Server thread/INFO]: [TAB] Disabled in 0ms
-[15:54:01] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
-[15:54:01] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
-[15:54:01] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
-[15:54:01] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.21-5
-[15:54:01] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
-[15:54:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
-[15:54:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:54:01] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:54:01] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:54:01] [Server thread/INFO]: Saving players
-[15:54:01] [Server thread/INFO]: Saving worlds
-[15:54:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:54:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:54:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:54:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Saved 377 block chunks, 270 entity chunks, 2 poi chunks in world 'world' in 0.45s
-[15:54:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[15:54:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:54:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[15:54:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:54:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:54:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:54:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:14:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[04:14:52] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
+[04:14:52] [Server thread/INFO]: [TAB] Disabled in 0ms
+[04:14:52] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
+[04:14:52] [Server thread/INFO]: [CrisTreeCapitator] Disabling CrisTreeCapitator v6.4.4
+[04:14:52] [Server thread/INFO]: [CrisTreeCapitator] Disabled
+[04:14:52] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.16_2.13.53
+[04:14:52] [Server thread/INFO]: [SinglePlayerSleep]  v1.16_2.13.53 is DISABLED
+[04:14:52] [Server thread/INFO]: [ChatManager] Disabling ChatManager v1.21-5
+[04:14:52] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[04:14:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[04:14:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:14:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:14:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:14:52] [Server thread/INFO]: Saving players
+[04:14:52] [Server thread/INFO]: Saving worlds
+[04:14:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:14:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:14:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:14:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Saved 675 block chunks, 524 entity chunks, 6 poi chunks in world 'world' in 0.91s
+[04:14:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:14:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:14:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[04:14:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:14:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:14:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:14:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

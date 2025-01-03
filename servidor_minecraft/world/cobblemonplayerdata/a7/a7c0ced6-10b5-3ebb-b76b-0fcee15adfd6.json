@@ -23,6 +23,13 @@
             "status": "SEEN",
             "discoveredTimestamp": 1735864775810
           }
+        },
+        "whimsicott": {
+          "normal": {
+            "isShiny": false,
+            "status": "SEEN",
+            "discoveredTimestamp": 1735866567060
+          }
         }
       },
       "name": "cobbledex_discovery"
@@ -36,15 +43,16 @@
     "totalCaptureCount": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 1,
+    "totalBattleVictoryCount": 5,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 1,
-    "totalPvNBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 3,
+    "totalPvNBattleVictoryCount": 2,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {},
     "totalDefeatedCounts": {
-      "cobblemon:starly": 1
+      "cobblemon:starly": 1,
+      "cobblemon:zubat": 2
     },
     "aspectsCollected": {}
   }

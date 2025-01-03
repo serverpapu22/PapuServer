@@ -22,6 +22,13 @@
         "status": "SEEN",
         "discoveredTimestamp": 1735864775810
       }
+    },
+    "whimsicott": {
+      "normal": {
+        "isShiny": false,
+        "status": "SEEN",
+        "discoveredTimestamp": 1735866567062
+      }
     }
   }
 }

@@ -1,0 +1,7 @@
+
+["Crazy Chocobos!"]
+	#Should horses, mules and donkeys be replaced by Chocobos?
+	"Replace Horses" = false
+	#How often nests should spawn on average. (The lower the number, the higher the spawn rate). Default is 10 (Uncommon).
+	"Chocobo Nest Frequency" = 10
+

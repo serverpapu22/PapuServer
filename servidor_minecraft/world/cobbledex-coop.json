@@ -1,0 +1,27 @@
+{
+  "registers": {
+    "charmander": {
+      "normal": {
+        "isShiny": false,
+        "status": "CAUGHT",
+        "discoveredTimestamp": 1735863137309,
+        "caughtTimestamp": 1735863137309
+      }
+    },
+    "litten": {
+      "normal": {
+        "isShiny": false,
+        "status": "CAUGHT",
+        "discoveredTimestamp": 1735863396863,
+        "caughtTimestamp": 1735863396863
+      }
+    },
+    "misdreavus": {
+      "normal": {
+        "isShiny": false,
+        "status": "SEEN",
+        "discoveredTimestamp": 1735864775810
+      }
+    }
+  }
+}
